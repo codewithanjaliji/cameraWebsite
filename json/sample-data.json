@@ -1,0 +1,105 @@
+{
+  "cameras": [
+    {
+      "name": "Fujifilm X-T4 695",
+      "category": "DSLR",
+      "price": "$502.25"
+    },
+    {
+      "name": "Olympus OM-D E-M1 1905",
+      "category": "Mirrorless",
+      "price": "$1834.30"
+    },
+    {
+      "name": "Sony Alpha a7 4805",
+      "category": "DSLR",
+      "price": "$1380.22"
+    },
+    {
+      "name": "Olympus OM-D E-M1 1659",
+      "category": "Mirrorless",
+      "price": "$1991.21"
+    },
+    {
+      "name": "Fujifilm X-T4 237",
+      "category": "Compact",
+      "price": "$1324.53"
+    },
+    {
+      "name": "Nikon D850 4590",
+      "category": "Action",
+      "price": "$1495.65"
+    },
+    {
+      "name": "Fujifilm X-T4 9861",
+      "category": "DSLR",
+      "price": "$1385.65"
+    },
+    {
+      "name": "Canon EOS 5D 974",
+      "category": "DSLR",
+      "price": "$1539.80"
+    },
+    {
+      "name": "Canon EOS 5D 920",
+      "category": "DSLR",
+      "price": "$545.78"
+    },
+    {
+      "name": "Canon EOS 5D 8964",
+      "category": "Action",
+      "price": "$604.70"
+    },
+    {
+      "name": "Fujifilm X-T4 2037",
+      "category": "DSLR",
+      "price": "$946.95"
+    },
+    {
+      "name": "Nikon D850 173",
+      "category": "Compact",
+      "price": "$741.73"
+    },
+    {
+      "name": "Sony Alpha a7 5873",
+      "category": "Compact",
+      "price": "$638.56"
+    },
+    {
+      "name": "Canon EOS 5D 6280",
+      "category": "Mirrorless",
+      "price": "$1699.42"
+    },
+    {
+      "name": "Sony Alpha a7 3955",
+      "category": "DSLR",
+      "price": "$2131.96"
+    },
+    {
+      "name": "Canon EOS 5D 3831",
+      "category": "Compact",
+      "price": "$2262.98"
+    },
+    {
+      "name": "Sony Alpha a7 2073",
+      "category": "Action",
+      "price": "$443.43"
+    },
+    {
+      "name": "Sony Alpha a7 4798",
+      "category": "Action",
+      "price": "$2138.93"
+    },
+    {
+      "name": "Sony Alpha a7 7684",
+      "category": "Compact",
+      "price": "$1180.38"
+    },
+    {
+      "name": "Sony Alpha a7 8296",
+      "category": "Mirrorless",
+      "price": "$1163.51"
+    }
+  ],
+  "total": 2000
+}

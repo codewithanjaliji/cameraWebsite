@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Camera Company</title>
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <marquee behavior="alternate" direction="right" loop scrollamount="10" class="customMarquee pt-1">
+    <p>
+      <i class="fa-regular fa-envelope"></i> <b>info@deeptechexpertise.com</b> Monday to Saturday from 9:30 AM to 6:30
+      PM
+    </p>
+  </marquee>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg bg-dark py-3 sticky shadow-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand h3" href="crousel.html"><span class="text-primary">Deens</span><span
+          class="text-warning">Lens</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon text-light"></span> -->
+
+        <i class="fa-solid fa-bars-staggered text-warning"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center h6 ">
+          <li class="nav-item">
+            <a class="nav-link active decoration text-light" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active decoration text-light" aria-current="page" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link decoration text-light" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  text-light" href="shop.html">
+              Shop
+            </a>
+
+
+
+          </li>
+          <li class="nav-item">
+            <a href="#" id="openPopup" class="nav-link decoration text-light">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link decoration text-light"><i title="cart" class="fa-solid fa-cart-plus pe-3"></i><span
+                class="text-warning">|</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link decoration text-light" href="myaccount.html"><i title="account"
+                class="fa-regular fa-circle-user"></i> My
+              Account</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- hero section -->
+  <div class="container-fluid ">
+    <div class="row  customPadding  justify-content-lg-end align-items-center customBackgroundColor">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <img src="/images/about.png" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <span class="customTextColor h1">
+          Capture Life's Precious <br> moments with Crystal <br> <span class="bgColor">Clear</span> Precision
+        </span>
+        <p class="customTextColor mt-2">Explore our wide range of high-quailty cameras and accessories.</p>
+
+        <div class="row mt-5  pb-3">
+          <div class="col-6">
+            <button class="btn-hero shopNow" onclick="aboutUs()">
+              Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="contactBtn text-light  " onclick="openVideoPopup()">
+              <img src="/images/playbtn.png" alt="playbtn" class="img-fluid playbtn"> Start Video
+            </button>
+
+          </div>
+
+
+          <!-- video popup -->
+          <div id="videoPopup" class="popup">
+            <div class="popup-content">
+              <span class="close-btn" onclick="closeVideoPopup()">&times;</span>
+              <video id="popupVideo" controls>
+                <source src="/video/vid-1.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Header -->
+    <header class="jumbotron jumbotron-fluid text-center pt-1">
+      <div class="container">
+        <h1 class="display-4 customTextColor">About Us</h1>
+        <p class="lead customTextColor">Learn more about our journey, mission, and team.</p>
+      </div>
+    </header>
+
+    <!-- Company Information Section -->
+    <section id="company-info" class="container py-5">
+      <div class="row">
+        <div class="col-md-6 order-sm-1 order-2">
+          <h2 class="customTextColor">Our Mission</h2>
+          <p class="customTextColor">At CameraCo, our mission is to provide top-quality cameras that cater to both
+            professional photographers
+            and
+            hobbyists. We aim to innovate and enhance the photography experience through our cutting-edge technology and
+            exceptional customer service.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia facere quae? Enim unde accusamus
+            culpa sapiente placeat harum neque nam deleniti eaque, nulla aliquid quibusdam fugit perferendis quam vitae.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint nesciunt repellendus culpa placeat ipsa
+            ipsum, libero distinctio quia officiis nemo reprehenderit aliquam ab incidunt quae aliquid totam enim iste
+            laboriosam!</p>
+        </div>
+        <div class="col-md-6 customTextColor ">
+          <img src="/images/company.jpg" alt="community" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <section id="company-info" class="container py-5">
+      <div class="row">
+        <div class="col-md-6 order-sm-2 order-0">
+          <img src="/images/company.jpg" alt="company" class="img-fluid">
+        </div>
+        <div class="col-md-6 customTextColor">
+          <h2 class="customTextColor">Our Vision & Values</h2>
+          <p class="customTextColor">At CameraCo, our mission is to provide top-quality cameras that cater to both
+            professional photographers
+            and
+            hobbyists. We aim to innovate and enhance the photography experience through our cutting-edge technology and
+            exceptional customer service.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia facere quae? Enim unde accusamus
+            culpa sapiente placeat harum neque nam deleniti eaque, nulla aliquid quibusdam fugit perferendis quam vitae.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint nesciunt repellendus culpa placeat ipsa
+            ipsum, libero distinctio quia officiis nemo reprehenderit aliquam ab incidunt quae aliquid totam enim iste
+            laboriosam!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light py-5">
+      <div class="container text-center">
+        <h2 class="customTextColor">Meet Our Team</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="image-container">
+                <img src="/images/people-1.jpg" class="card-img-top" alt="Team Member 1">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title customTextColor">Liya</h5>
+                <p class="card-text customTextColor">CEO & Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="/images/people-2.avif" class="card-img-top" alt="Team Member 2">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title customTextColor">Tiya Smith</h5>
+                <p class="card-text customTextColor">CTO</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="/images/people-3.jpg" class="card-img-top" alt="Team Member 3">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title customTextColor">Raya Johnson</h5>
+                <p class="card-text customTextColor">Lead Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="container-fluid py-5">
+      <h2 class="text-center customTextColor">Our History</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2000</h3>
+            <p>Company founded by Liya Doe.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2005</h3>
+            <p>Released our first camera model.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2010</h3>
+            <p>Opened our first international office.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2015</h3>
+            <p>Reached 1 million customers worldwide.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2020</h3>
+            <p>Launched our latest AI-powered camera series.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="bg-light py-5">
+      <div class="container text-center">
+        <h2>Achievements & Awards</h2>
+        <p>We are proud to have received numerous awards for our innovative products and exceptional service.</p>
+        <ul class="list-unstyled">
+          <li>Best Camera Brand - 2018</li>
+          <li>Innovation in Photography - 2019</li>
+          <li>Customer Choice Award - 2020</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-5 ">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <div>
+              <a class="text-decoration-none h3" href="#"><span class="text-primary">Deens</span><span
+                  class="text-warning">Lens</span></a>
+            </div>
+            <div>
+              <h3 class="h5">Stay Connected</h3>
+              <ul class="footer-icon">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <h1 class="h5">Connected</h1>
+            <p>Get in touch with us today to find out how we can help you capture your world.</p>
+            <span>2596387412</span>, <span>9186597825</span>
+            <p>Email: deeptech@gmail.com</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
+            <h3 class="h5">Link</h3>
+            <ul class="footernav ">
+              <li><a href="index.html" class="text-decoration-none text-light ">Home</a></li>
+              <li><a href="about.html" class="text-decoration-none text-light ">About us</a></li>
+              <li><a href="shop.html" class="text-decoration-none text-light ">Shop</a></li>
+              <li><a href="contact.html" class="text-decoration-none  text-light">Contact us</a></li>
+              <li><a href="myaccount.html" class="text-decoration-none text-light ">Account</a></li>
+              <li><a href="cartpage.html" class="text-decoration-none text-light ">Cart</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <h2 class="h5">Interested in learning more?</h2>
+            <p>Get in touch with us today to find out how we can help you capture your world.</p>
+            <div class="footerbox">
+              <input type="text" class="newsletter"><button class="newsletterbtn ">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
+
+
+<!-- Popup Form -->
+<div id="popupForm" class="popup-container">
+  <div class="popup-content">
+    <button id="closePopup" class="close-button">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <h2>Contact Us</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-control" required>
+      </div>
+      <div>
+        <button type="submit" class="contactBtn">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
